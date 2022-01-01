@@ -11,5 +11,8 @@ const id = document.querySelector("#id"),
       id: id.value,
       pasword: psword.value,
     };
-    console.log(req);
+
+    fetch("/login", {
+      body: JSON.stringify(req)
+    })
   }
