@@ -23,6 +23,7 @@ const id = document.querySelector("#id"),
     .then((res) => {
       if(res.success) {
         location.href = "/";
+        console.log("뭐임");
       } else {
         alert(res.msg);
       }
