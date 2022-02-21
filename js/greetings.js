@@ -19,7 +19,6 @@ function OnLoginSubmit(event) {
   greeting.innerText = "Hello " + username;*/
   localStorage.setItem(USERNAME_KEY,username);
   paintGreetings(username);
-
   /*버튼사용시 유효성검증
   if(username === "") {
     alert("Please write your name");
@@ -30,7 +29,7 @@ function OnLoginSubmit(event) {
 
 function paintGreetings(username){
   greeting.classList.remove(HIDDEN_CLASSNAME);
-  greeting.innerText = `Hello ${savedUsername}`;
+  greeting.innerText = `Hello ${username}`;
 }
 /*이벤트 동작막기
 function handleLinkClick(event){
