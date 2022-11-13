@@ -74,4 +74,6 @@ repository에 파일 업로드
 git push -u origin master
 -u 옵션은 이 다음부터는 git pull / git push 를 할 때 origin master 를 지정하지 않아도 알아서 origin master로 붙어서 가져오라는 옵션
 
-
+레포지토리 합치기
+git subtree add --prefix=사용할폴더명 레포지토리주소 브랜치명
+ex) git subtree add --prefix=BasicWeb https://github.com/koppy364/web.git main
