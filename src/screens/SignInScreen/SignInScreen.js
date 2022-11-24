@@ -15,15 +15,13 @@ const navigation = useNavigation();
 
 
 const onSignInPress = () => {
-  console.warn("Sign In Pressed");
-
   navigation.navigate("Home");
 }
+
 const onForgotPasswordPress = () => {
-  console.warn("onForgotPasswordPress Pressed");
 }
+
 const onSignUpPress = () => {
-  console.warn("onSignUpPress Pressed");
   navigation.navigate("SignUp");
 }
 
