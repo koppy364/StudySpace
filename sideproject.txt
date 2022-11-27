@@ -10,7 +10,7 @@ description
 
 technology
 
-React, Nodejs, Mysql, AWS?, Typescript?, Kotlin?
+React, Nodejs, Mysql, AWS?, Typescript?, Kotlin?, pwa?, graphql?
 
 Tool
 
